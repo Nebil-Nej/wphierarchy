@@ -9,9 +9,13 @@
 </head>
 
 <body <?php body_class(); ?>>
-
+    <?php 
+        if (!is_active_sidebar( 'header-sidebar')) {
+            return;
+        }
+    ?>
     <div id="page">
-
+        <?php dynamic_sidebar( 'header-sidebar'); ?>
         <a href="#content" class="skip-link screen-reader-text">
             <?php esc_html_e('Skip to Content', 'wphierarchy'); ?>
         </a>
