@@ -44,7 +44,7 @@ register_nav_menus([
     'main-menu' => esc_html__('Main Menu', 'wpheirarchy')
 ]);
 
-// Setup Widget Area
+
 
 function wphierarchy_widgets_init()
 {
