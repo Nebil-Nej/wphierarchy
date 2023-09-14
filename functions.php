@@ -4,7 +4,7 @@
 
 add_theme_support('title-tag');
 add_theme_support('post-thumbnails');
-add_theme_support('post_format', [
+add_theme_support('post_formats', [
     'aside',
     'gallery',
     'link',
